@@ -9,8 +9,8 @@ It might not attract a lot of attention but I personally will be doing this for 
 Haiwos!
 
 I'm a guy who's interested in 
-・ Furries/Furry Art
-・ Coding/Programming
+\n ・ Furries/Furry Art
+\n・ Coding/Programming
 ・ AI Development
 ・ Game development.
 ・ 3D modeling
