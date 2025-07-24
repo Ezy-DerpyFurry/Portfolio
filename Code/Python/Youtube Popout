@@ -1,3 +1,5 @@
+### Just a quick note this was partly made by Chat-GPT as I am also still learning python libraries.
+
 import tkinter as tk
 from tkinter import ttk
 import vlc
