@@ -1,0 +1,36 @@
+### Side note this is currently being worked on.
+
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+const int MAX_LINES = 256;
+const int MAX_LENGTH = 256;
+
+int loadfile(const char* filename, char lines[][MAX_LENGTH]) {
+    ifstream file(filename);
+    if (!file) {
+        cout << "Sorry, could not find that file." << endl;
+        return 0;
+    }
+
+    int count;
+    while (count < MAX_LINES && file.getline(lines[count], MAX_LENGTH)) {
+        count++;
+    }
+
+    file.close();
+    return count;
+}
+
+int main() {
+    char filelines[MAX_LINES][MAX_LENGTH];
+
+    int linecount = loadfile("users.txt", filelines);
+
+    for (int i = 0; i < linecount; i++) {
+        cout << "Line - " << i + 1 << ": " << filelines[i] << endl;
+    }
+
+}
