@@ -8,7 +8,7 @@ public:
 
     static unsigned int seed;
 
-    double absNum(double a) {
+    static double absNum(double a) {
         return (a < 0) ? -a : a;
     }
 
@@ -43,6 +43,8 @@ int main() {
     int rannumber = Math::randomnum(10, 20);
     Math::seed = 14;
     ofstream file("ages.txt", ios::app);
+
+    cout << Math::absNum(25) << endl;
 
     if (!file) {
         cout << "Not a valid file \n";
