@@ -6,11 +6,10 @@ Classes:
   Extras
 
 ### About Threading ###
-Most/All functions will forcefully use the threading library or in simple terms will not pause your code, meaning if you have a play it will execute the rest of the code but will not stop the code as I have
-put a monitor downloading does stop your code as of right now due to me being bad.
+Most functions will forcefully use the threading library, or in simple terms will not pause your code on execution. The downloading does pause your code as of right now, due to me being bad.
 
 ### Libraries ###
-All the libraries are not built by me I'm simply makign a wrapper to make things easier to use.
+All the libraries are not built by me I'm simply making a wrapper to make things easier to use.
 
 Libraries:
   import yt_dlp
