@@ -45,8 +45,14 @@ music.download(url = 'url here', format = "mp4", out = "output folder here") # T
 math_example1 = Math.random(10,20) # This one relys on the Math = glib.Math()
 math_example2 = glib.Math.random(glib.Math(), 10,20)  # This does not rely on the Math = glib.Math() but relys on you importing the entire library at once.
 
-math_example3 = Math.toint(v=None, returns="int", f=False) # My special toint it handles alot for you read the about for more info one this.
+# My special toint it handles alot for you read the about for more info on this.
 
+math_example3 = Math.toint(v=None, returns="int", f=False)
+"""
+{v} is the value you wanna convert
+{returns} has str and int for strings or integer returning
+{f} is if you wanna floatify it (False by default)
+"""
 
 
 
