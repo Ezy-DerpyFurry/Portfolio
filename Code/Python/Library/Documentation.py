@@ -14,10 +14,15 @@ Math = glib.Math()
 # These are the arguments you can change for the entirty of the code they can all be handled hear and can be updated as you please.
 glib.update_arguments({
     'music': {
-      'volume': 0.5
+        'volume': 0.5,
     },
-    'debug': False,
-    'intro': False # Do not use this unless you really want to it does infact do nothing and is a placeholder for the library itself
+    'debugging': {
+        'extras': True,
+        'warning': False,
+        'error': True
+    },
+    'debug': False, # I am slowly replacing this with the debugging category but its here incase I missed any
+    'intro': True # Do not use this unless you really want to it does infact do nothing and is a placeholder for the library itself
 })
 
 ### EXTRAS ###
@@ -40,6 +45,7 @@ music.download(url = 'url here', format = "mp4", out = "output folder here") # T
 math_example1 = Math.random(10,20) # This one relys on the Math = glib.Math()
 math_example2 = glib.Math.random(glib.Math(), 10,20)  # This does not rely on the Math = glib.Math() but relys on you importing the entire library at once.
 
+math_example3 = Math.toint(v=None, returns="int", f=False) # My special toint it handles alot for you read the about for more info one this.
 
 
 
