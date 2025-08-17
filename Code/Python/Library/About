@@ -6,9 +6,6 @@ Classes:
   Extras
   Math
 
-### About Threading ###
-Most functions will forcefully use the threading library, or in simple terms will not pause your code on execution. The downloading does pause your code as of right now, due to me being bad.
-
 ### Libraries ###
 All the libraries are not built by me I'm simply making a wrapper to make things easier to use.
 
@@ -20,3 +17,11 @@ Libraries:
   import os
   import warnings
   import pygame
+
+
+### About Threading ###
+Most functions will forcefully use the threading library, or in simple terms will not pause your code on execution. The downloading does pause your code as of right now, due to me being bad.
+
+### About my toint function ###
+It handles everything for you such as strings, floats, ints and converts them to a integer or a string for you depending on your need and the last function f=True/False floatifys it if your working on
+velocity and need it to be a float.
