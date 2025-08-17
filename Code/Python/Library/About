@@ -4,6 +4,7 @@ It will cover video/music playing, guis, extra functions simplified, file handli
 Classes:
   Music
   Extras
+  Math
 
 ### About Threading ###
 Most functions will forcefully use the threading library, or in simple terms will not pause your code on execution. The downloading does pause your code as of right now, due to me being bad.
