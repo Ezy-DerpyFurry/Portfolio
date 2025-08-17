@@ -1,2 +1,22 @@
 These are my documents/examples for my upcoming Library for python, it will use C++ and python and multiple libraries like ydl, ffmpeg and others its gonna be one big wrapper for python covering.
 It will cover video/music playing, guis, extra functions simplified, file handling all for you to make python 10 times easier while still being efficient.
+
+Classes:
+  Music
+  Extras
+
+### About Threading ###
+Most/All functions will forcefully use the threading library or in simple terms will not pause your code, meaning if you have a play it will execute the rest of the code but will not stop the code as I have
+put a monitor downloading does stop your code as of right now due to me being bad.
+
+### Libraries ###
+All the libraries are not built by me I'm simply makign a wrapper to make things easier to use.
+
+Libraries:
+  import yt_dlp
+  import ctypes
+  from yt_dlp.utils import DownloadError
+  import threading
+  import os
+  import warnings
+  import pygame
