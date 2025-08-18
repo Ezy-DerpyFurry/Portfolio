@@ -27,16 +27,17 @@ glib.update_arguments({
 
 ### EXTRAS ###
 
-extras.wait(1) # This waits a certain amount of seconds like. (it does support foats [ex. 0.4)
+extras.wait(1) # This waits a certain amount of seconds like. (it does support foats [ex. 0.4])
 
 ### MUSIC ###
 
 music.play(r"path to mp3.mp3") # This plays a .mp3 volume is handled about in the arguments
+glib.update_arguments({'music': {'volume': 1},}) # You can just update this single argument to change volume while it plays
 
 music.removefile(b"path to file.file-extension") # This deleted a file for you, you just have to put in the path
 
-music.download(url = 'url here', format = "mp3", out = "output folder here") # This downloads a mp3 from a website that yt_dlp supportsand puts it into the file you want (Mostly a wrapper)
-music.download(url = 'url here', format = "mp4", out = "output folder here") # This downloads a mp4 from a website that yt_dlp supportsand puts it into the file you want (Mostly a wrapper)
+music.download(url = 'url here', format = "mp3", out = "output path here") # This downloads a mp3 from a website that yt_dlp supports and puts it into the file you want (Mostly a wrapper)
+music.download(url = 'url here', format = "mp4", out = "output path here") # This downloads a mp4 from a website that yt_dlp supports and puts it into the file you want (Mostly a wrapper)
 
 ### MATH ###
 
