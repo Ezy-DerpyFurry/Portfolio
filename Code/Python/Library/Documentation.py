@@ -39,6 +39,8 @@ extras.wait(1) # This waits a certain amount of seconds like. (it does support f
 extras.keep_alive(True) # Will keep your code alive even if it all ends it will just keep it running
 extras.keep_alive(False) # Disables the keep alive
 
+print(extras.contains("abc123", "c12")) # Sees if a string contains another string (value), the first argument is the string, the 2nd argument is the value you want to find
+
 # My thread wrapper (this is a bigger one)
 
 def monitor(str, str2):
