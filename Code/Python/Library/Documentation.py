@@ -10,6 +10,7 @@ from Library import glib
 music = glib.Music()
 extras = glib.Extras()
 Math = glib.Math()
+file = glib.File()
 
 # If you just wanna use a single function as a base function you can do
 wait = extras.wait 
@@ -35,6 +36,23 @@ glib.update_arguments({
 
 extras.wait(1) # This waits a certain amount of seconds like. (it does support foats [ex. 0.4])
 
+extras.keep_alive(True) # Will keep your code alive even if it all ends it will just keep it running
+extras.keep_alive(False) # Disables the keep alive
+
+# My thread wrapper (this is a bigger one)
+
+def monitor(str, str2):
+    extras.print(str)
+    wait(2)
+    extras.print(str2)
+    extras.wait(5)
+    print(str)
+    extras.wait(2)
+
+extras.sthread(monitor, "Hi", "test", a=True) 
+# The first argument is the function you're targeting, the next arguments will all be arguments you put into the function.
+# You have to do a=True for the daemon toggle, True means it will stop the function when your code stops, False will mean it will keep your code going till it stops.
+
 ### MUSIC ###
 
 # Suports multiple music players
@@ -50,8 +68,6 @@ player1.stop() # Deletes/Breaks the player
 player1.set_volume(0.2) # This sets the volume of it 
 
 glib.update_arguments({'music': {'volume': 1},}) # Another way to set sound aswell
-
-music.removefile(b"path to file.file-extension") # This deleted a file for you, you just have to put in the path
 
 music.download(url = 'url here', format = "mp3", out = "output path here") # This downloads a mp3 from a website that yt_dlp supports and puts it into the file you want (Mostly a wrapper)
 music.download(url = 'url here', format = "mp4", out = "output path here") # This downloads a mp4 from a website that yt_dlp supports and puts it into the file you want (Mostly a wrapper)
@@ -72,5 +88,9 @@ math_example3 = Math.toint(v=None, returns="int", f=False)
 {f} is if you wanna floatify it (False by default)
 """
 
+### FILE ###
 
+file.removefile(b"path to file.file-extension") # This deleted a file for you, you just have to put in the path
 
+print(file.filecount("folder path here")) # This returns how many FILES are in a folder so it will not include folders inside another folder.
+ 
