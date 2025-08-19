@@ -41,8 +41,10 @@ player1.play() # This actually plays the player
 player1.pause() # Pauses player
 player1.unpause() # Unpauses player
 player1.toggle() # Toggles pause and unpause player
+player1.stop() # Deletes/Breaks the player
+player1.set_volume(0.2) # This sets the volume of it 
 
-glib.update_arguments({'music': {'volume': 1},}) # You can just update this single argument to change volume while it plays
+glib.update_arguments({'music': {'volume': 1},}) # Another way to set sound aswell
 
 music.removefile(b"path to file.file-extension") # This deleted a file for you, you just have to put in the path
 
