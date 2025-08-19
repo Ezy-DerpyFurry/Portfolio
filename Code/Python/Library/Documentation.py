@@ -6,10 +6,15 @@ os.environ["SKIP_INTRO"] = "1"
 from Library import glib
 #from Library.glib import Extras # <== This is the Extras class
 
-# if you're just importing the entire library you can name them like this.
+# If you're just importing the entire library you can name them like this.
 music = glib.Music()
 extras = glib.Extras()
 Math = glib.Math()
+
+# If you just wanna use a single function as a base function you can do
+wait = extras.wait 
+# Then you can do
+wait(2) # instead of extras.wait(2)
 
 # These are the arguments you can change for the entirty of the code they can all be handled hear and can be updated as you please.
 glib.update_arguments({
