@@ -32,8 +32,13 @@ extras.wait(1) # This waits a certain amount of seconds like. (it does support f
 
 ### MUSIC ###
 
-player1 = music.play(r"path to mp3.mp3") # This plays a .mp3 volume is handled about in the arguments
+player1 = music.play(r"path to mp3.mp3") # This intializes a .mp3 player, default volume in the arguments
+player1 = music.play(r"path to mp3.mp3").play() # This plays it when initalized (just starts playing)
+
 player1.play() # This actually plays the player
+player1.pause() # Pauses player
+player1.unpause() # Unpauses player
+player1.toggle() # Toggles pause and unpause player
 
 glib.update_arguments({'music': {'volume': 1},}) # You can just update this single argument to change volume while it plays
 
