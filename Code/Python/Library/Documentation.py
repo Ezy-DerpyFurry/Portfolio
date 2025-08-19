@@ -15,6 +15,7 @@ Math = glib.Math()
 glib.update_arguments({
     'music': {
         'volume': 0.5,
+        'pause': False, # Seems dumb but incase you wanna pause by default.
     },
     'debugging': {
         'extras': True,
@@ -31,7 +32,9 @@ extras.wait(1) # This waits a certain amount of seconds like. (it does support f
 
 ### MUSIC ###
 
-music.play(r"path to mp3.mp3") # This plays a .mp3 volume is handled about in the arguments
+player1 = music.play(r"path to mp3.mp3") # This plays a .mp3 volume is handled about in the arguments
+player1.play() # This actually plays the player
+
 glib.update_arguments({'music': {'volume': 1},}) # You can just update this single argument to change volume while it plays
 
 music.removefile(b"path to file.file-extension") # This deleted a file for you, you just have to put in the path
