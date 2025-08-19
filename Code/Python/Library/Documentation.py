@@ -32,6 +32,8 @@ extras.wait(1) # This waits a certain amount of seconds like. (it does support f
 
 ### MUSIC ###
 
+# Suports multiple music players
+
 player1 = music.play(r"path to mp3.mp3") # This intializes a .mp3 player, default volume in the arguments
 player1 = music.play(r"path to mp3.mp3").play() # This plays it when initalized (just starts playing)
 
