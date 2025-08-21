@@ -83,6 +83,14 @@ math_example1 = Math.random(10,20) # This one relys on the Math = glib.Math()
 math_example2 = glib.Math.random(glib.Math(), 10,20)  # This does not rely on the Math = glib.Math() but relys on you importing the entire library at once.
 
 math_example3 = Math.clamp(143, 0, 831) # Will ensure the number stays within the given values.
+
+math_example4 = Math.circlearea(50, "type") # this finds the area of a 2d circle
+"""
+math_example4 = Math.circlearea(50, 'diameter') # This finds the area using the value as the diameter
+math_example4 = Math.circlearea(50, 'radius') # This finds the area using the value as the radius if you already did the radius math
+math_example4 = Math.circlearea(50, 'both') # This gives both the diameter and radius using that value
+"""
+
 #// ex. math_example3 = Math.clamp(value, min, max)\\.
 
 # My special toint it handles alot for you read the about for more info on this.
