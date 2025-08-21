@@ -11,6 +11,7 @@ music = glib.Music()
 extras = glib.Extras()
 Math = glib.Math()
 file = glib.File()
+video = glib.Video()
 
 # If you just wanna use a single function as a base function you can do
 wait = extras.wait 
@@ -95,4 +96,19 @@ math_example3 = Math.toint(v=None, returns="int", f=False)
 file.removefile(b"path to file.file-extension") # This deleted a file for you, you just have to put in the path
 
 print(file.filecount("folder path here")) # This returns how many FILES are in a folder so it will not include folders inside another folder.
- 
+
+### VIDEO ###
+
+player1 = video.play(r"path to mp4") # Creates a player in the value player1
+
+player1.pause() # Pauses the player
+player1.resume() # Unpauses the player
+player1.play() # Plays the player
+player1.set_volume(50) # Sets volume 1-100
+player1.stop() # Destroys/stops the player
+timestamp = player1.get_position() # Gets the timestamp
+player1.set_position(120) # Sets a new timestamp in seconds (can start video at the end)
+
+
+
+
