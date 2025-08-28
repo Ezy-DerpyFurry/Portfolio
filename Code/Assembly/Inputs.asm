@@ -14,6 +14,12 @@ section .data
     msg_quit db "See you later!",10
     len_msg_quit equ $ - msg_quit
 
+    Math_input db "Math"
+    len_Math_input equ $ - Math_input
+
+    msg_math db "Please enter number: "
+    len_msg_math equ $ - msg_math
+
     msg_HI db "Hello!",10
     len_msg_HI equ $ - msg_HI
 
@@ -22,6 +28,12 @@ section .data
 
     buf times 32 db 0
     buflen equ $ - buf
+
+    math_buf times 32 db 0
+    math_buf_len equ $ - math_buf
+
+    math_buf2 times 32 db 0
+    math_buf2_len equ $ - math_buf2
 
 section .text
     global _start
@@ -74,38 +86,73 @@ loop_:
     mov al, [rsi]
     mov bl, [rdi]
     cmp al, bl
-    jne .inncorrectA
+    jne .check_math
 
     inc rsi
     inc rdi
     dec rcx
     jmp .compare_quit
 
+.check_math:
+    mov rsi, buf
+    mov rdi, Math_input
+    mov rcx, len_Math_input
+    jmp .compare_math
+
+.compare_math:
+    test rcx, rcx
+    jz .mathloop
+
+    mov al, [rsi]
+    mov bl, [rdi]
+    cmp al, bl
+    jne .inncorrectA
+
+    inc rsi
+    inc rdi
+    dec rcx
+    jmp .compare_math
+
+.mathloop:
+    mov rsi, msg_math
+    mov rdx, len_msg_math
+    call print
+
+    mov rsi, math_buf
+    mov rdx, math_buf_len
+    call read
+
+    mov rsi, msg_math
+    mov rdx, len_msg_math
+    call print
+
+    mov rsi, math_buf2
+    mov rdx, math_buf2_len
+    call read
+
+    ; I don't know assembly math yet :<
+
+    jmp loop_
+
 .correctHi:
-    mov rax, 1
-    mov rdi, 1
     mov rsi, msg_HI
     mov rdx, len_msg_HI
-    syscall
+    call print
     jmp loop_
 
 .correctQuit:
     jmp .done
 
 .inncorrectA:
-    mov rax, 1
-    mov rdi, 1
     mov rsi, Inncorrect
     mov rdx, len_Inncorrect
-    syscall
+    call print
     jmp loop_
 
 .done:
-    mov rax, 1
-    mov rdi, 1
     mov rsi, msg_quit
     mov rdx, len_msg_quit
-    syscall
+    call print
 
     mov rax, 60
     xor rdi, rdi
