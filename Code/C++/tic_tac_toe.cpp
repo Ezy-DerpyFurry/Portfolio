@@ -54,6 +54,16 @@ char check_win() {
     return '-';
 }
 
+bool is_filled() {
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            if (board[i][j] == '-')
+                return false;
+        }
+    }
+    return true;
+}
+
 int main() {
     string none;
     char choice;
@@ -66,6 +76,13 @@ int main() {
 
     while (true) {
         
+        if (is_filled()) {
+            clear_console();
+            cout << "Tie! No one won." << endl;
+        } else {
+            cout << "Not Tie!";
+        }
+
         cout << "Enter a row and column (ex 0 1): ";
         cin >> row >> column;
 
