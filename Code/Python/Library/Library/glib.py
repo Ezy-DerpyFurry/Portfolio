@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 import pygame
 
 # Load C++ functions
-function = ctypes.CDLL("Library/functions/funcs.so")
+function = ctypes.CDLL("Library/functions/funcs.so") # If you use a IDE that supports relative paths, this should work otherwise please replace the full path. 
 
 function.sleep.argtypes = [ctypes.c_double]
 function.sleep.restype = None
