@@ -1,64 +1,54 @@
-// I *MIGHT* turn this into a python library and more customizable \\.
-
 #include <stdio.h>
 #include <termios.h>
 #include <unistd.h>
 #include <string.h>
+#define clear() printf("\033[2J\033[H");
 
-void clear() {
-    printf("\033[2J\033[H");
-}
-
-void print_terminal_menu(const char *list[], int list_length, int num) {
-    printf("Options:\n");
+void print_terminal_menu(const char *list[], int list_length, int num, const char *opening, const char *selector) {
+    clear();
+    printf("%s\n", opening);
     for (int i = 0; i < list_length; i++) {
-        if (num-1 == i) printf("  > %s", list[i]);
-        else printf("  %s", list[i]);
-        printf("\n");
+        printf("  %s%s\n", (num-1 == i ? selector : ""), list[i]);
     }
 }
 
-const char* terminal_menu(const char *list[], int list_length) {
+const char* terminal_menu(const char *list[], int list_length, const char *opening, const char *selector) {
 
     struct termios oldt, newt;
     tcgetattr(STDIN_FILENO, &oldt);
     newt = oldt;
-
     newt.c_lflag &= ~(ICANON | ECHO);
     tcsetattr(STDIN_FILENO, TCSANOW, &newt);
 
     char c;
     int num = 1;
 
-    print_terminal_menu(list, list_length, num);
+    print_terminal_menu(list, list_length, num, opening, selector);
 
     while (read(STDIN_FILENO, &c, 1) == 1) {
         if (c == 'q') {
-            return NULL;
+            tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
+            return "None";
             break;
         }
 
         if (c == 119 || c == 65) {
-            num = num - 1;
-            if (num == 0) num = list_length;
+            num = (num + list_length - 2) % list_length + 1;
         } else if (c == 115 || c == 66) {
-            num = (num % list_length) + 1;
+            num = num % list_length + 1;
         } else if (c == 10 || c == 67) {
             tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
             return list[num-1];
             break;
         }
 
-        clear();
-        print_terminal_menu(list, list_length, num);
+        print_terminal_menu(list, list_length, num, opening, selector);
     }
 
     tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
 }
 
 int main() {
-    clear();
-
     const char *list[] = {
         "Apple",
         "Banana",
@@ -68,9 +58,12 @@ int main() {
         "Pancake",
     };
 
+    const char *opening = "Choices: ";
+    const char *selector = "> ";
+
     int list_length = sizeof(list) / sizeof(list[0]);
 
-    const char *picked = terminal_menu(list, list_length);
+    const char *picked = terminal_menu(list, list_length, opening, selector);
     printf("You have chosen: %s\n", picked);
 
     return 0;
