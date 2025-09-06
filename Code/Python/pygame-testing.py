@@ -1,4 +1,6 @@
 ### I wanna try to modularize pygame to add to my library so heres a testing game I made
+### Edit ^^ NOT happening one I'm lazy and to dumb to, 2 causeeee I dunno how :3
+
 
 import pygame
 import math
