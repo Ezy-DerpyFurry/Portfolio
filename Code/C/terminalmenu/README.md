@@ -20,5 +20,12 @@ Then run this command in terminal
 vv Terminal
 python3 setup.py build_ext --inplace
 
+This is how you use it in python
+
+vv Python
+selector = ">>> "
+starter = "Choose an option:"
+options = [strawberry, pancake, blooburry]
+choice = mymenu.terminal_menu(options, starter, selector)
 
 Hope this helps ^w^ I just wanna help everyone else whom is learning code aswell
