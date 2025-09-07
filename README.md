@@ -8,14 +8,22 @@ It might not attract a lot of attention but I personally will be doing this for 
 
 Haiwos!
 
-I'm a guy who's interested in \n
+I'm a guy who's interested in
+
 ・ Furries/Furry Art
+
 ・ Coding/Programming
+
 ・ AI Development
+
 ・ Game development.
+
 ・ 3D modeling
+
 ・ Japanese
+
 ・ Ukulele/Guitar
+
 ・ And drawing myself
 
 I'm not particularly good in anything, but I will try my best to make good work, thank you for your time have a wonderful day!
