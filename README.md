@@ -28,5 +28,6 @@ I'm a guy who's interested in
 
 I'm not particularly good in anything, but I will try my best to make good work, thank you for your time have a wonderful day!
 (Mah goal is to just experiment with a ton of coding languages)
+
 ```さようなら```
                                 
