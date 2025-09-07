@@ -8,7 +8,7 @@ It might not attract a lot of attention but I personally will be doing this for 
 
 Haiwos!
 
-I'm a guy who's interested in 
+I'm a guy who's interested in \n
 ・ Furries/Furry Art
 ・ Coding/Programming
 ・ AI Development
