@@ -4,6 +4,8 @@ Hello! This is my portfolio where I will be uploading things I make from now on 
 
 It might not attract a lot of attention but I personally will be doing this for myself if you don't like something you can move on thank you for your time!
 
+``` Pls gib credit (not needed)```
+
 ## About me ##
 
 Haiwos!
