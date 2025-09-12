@@ -24,4 +24,4 @@ Sample algorithm:
   total = minutes * .1 + texts * .05 + 8 // Just gave away the answer using proper math symbols good job!
   OUTPUT “You must pay ” + total // why use + ? ur not doign a math equation and u dont add a int to a string what?
   
-^^ Dis is a beginners class so what I did was way more complicated also things after // are my thongs on the rules.
+^^ Dis is a beginners class so what I did was way more complicated also things after // are my things on the rules. oops mistype
