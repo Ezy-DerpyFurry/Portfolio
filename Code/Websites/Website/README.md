@@ -1,3 +1,5 @@
+The images are NOT mine they're just for testing I don't know the original creators
+
 So this isn't my first website persay but it is definitely my first without 100% chat gpt the only thing that was AI
 was ***helping*** me with the backend .C cause I'm no da bestest C coder but I'm working on it!
 
