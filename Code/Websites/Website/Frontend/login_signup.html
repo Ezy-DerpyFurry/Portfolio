@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script>
+            $(function() {
+                $("#navbar").load("nav_bar/nav_bar.html");
+                $("#footer").load("footer/footer.html")
+            });
+        </script>
+        <script src="script.js"></script>
+
+        <!--< Style sheets >!-->
+        <link rel="stylesheet" href="css/style_mobile.css">
+        <link rel="stylesheet" href="css/style_desktop.css">
+        <link rel="stylesheet" href="css/both.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Sign up</title>
+    </head>
+    <body>
+        <!--< This is the Navigation Bar goes at the beginning >!-->
+        <div id="navbar"></div>
+
+            <!--< Rest of html here >!-->
+
+        <div class="spacingx2"></div>
+        
+        <div id="login_signup_back" class="block">
+            <div id="signup">
+                <h1 class="login_signup_title a">Sign up!</h1>
+                <input type="text" id="email" placeholder="Enter your E-Mail">
+                <input type="text" id="username" placeholder="Enter a Username">
+                <input type="text" id="password" placeholder="Enter a Password">
+                <input type="text" id="password-confirm" placeholder="Re-Enter your Password">
+                <button onclick="sendinfo(); getinfo()">Sign up</button> <!--< This is what the script.js gets activated >!-->
+                <p id="output"></p>
+                <!--< vv This does not work yet, sorry! vv >!-->
+                <button id="login_switch">Have an account? <u class="login_signup_title" style="cursor: pointer;">Login</u></button>
+
+            </div>
+        </div>
+
+        <div class="spacingx2"></div>
+        <div class="spacingx2"></div>
+        <div class="spacingx2"></div>
+        <div class="spacingx2"></div>
+        <div class="spacing"></div>
+
+        <!--< This is the footer goes at the end >!-->
+        <div id="footer"></div>
+        
+        <script src="script.js"></script> <!--< This initalizes script.js to use the functions above >!-->
+    </body>
+</html>

@@ -1,0 +1,35 @@
+/* 
+    General settings
+        (For mobile)
+*/
+
+@media (max-width: 1100px) {
+    .mobile_image {
+        width: 50%;
+    }
+
+    #blockfour {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .underimage {
+        transform: translate(50%,0%);
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    /* For super small phones vv (anything under 350px can and will break)*/
+    @media (max-width: 330px) {
+        .para {
+            width: 100% !important;
+        }
+
+        body {
+            min-width: 330px;
+            overflow-x: auto;
+        }
+    }
+}

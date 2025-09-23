@@ -1,0 +1,37 @@
+/* 
+    Footer settings
+        (For desktop)
+*/
+
+@media (min-width: 1100px) {
+    .title2 {
+        text-align: left;
+        padding-left: 10%;
+        max-width: 500px;
+        font-size: 30px;
+    }
+
+    #main_holder {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+        right: 250px;
+        top: 10%;
+    }
+
+    #holder_one, #holder_two, #holder_three {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #holder_one *, #holder_two *, #holder_three * {
+        background-color: var(--invis);
+        border: none;
+        color: var(--other-color);
+        border-bottom: solid 1px var(--other-color);
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

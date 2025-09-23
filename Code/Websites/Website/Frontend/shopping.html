@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script>
+            $(function() {
+                $("#navbar").load("nav_bar/nav_bar.html");
+                $("#footer").load("footer/footer.html")
+            });
+        </script>
+        <script src="script.js"></script>
+
+        <!--< Style sheets >!-->
+        <link rel="stylesheet" href="css/style_mobile.css">
+        <link rel="stylesheet" href="css/style_desktop.css">
+        <link rel="stylesheet" href="css/both.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Shopping</title>
+    </head>
+    <body>
+        <!--< This is the Navigation Bar goes at the beginning >!-->
+        <div id="navbar"></div>
+
+            <!--< Rest of html here >!-->
+
+        <!--< Simple block with title and paragraph >!-->
+        <div class="block" id="blockfive">
+            <h1 class="header" id="header5">First title here</h1>
+            <p class="para" id="para5">This is a placeholder paragraph you can put your opening message here to describe 
+                your website or just welcome the user to your website</p>
+        </div>
+
+        <div id="main_shopping">
+            <div class="container">
+                <h5 style="text-align: right; padding-top: 20px; font-size: 17px; padding-right: 40px;">Filters</h5>
+            </div>
+            <div class="spacing"></div>
+        </div>
+
+        <!--< This is the footer goes at the end >!-->
+        <div id="footer"></div>
+    </body>
+</html>

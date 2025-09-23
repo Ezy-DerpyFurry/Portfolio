@@ -1,0 +1,47 @@
+/* 
+    Navigation bar settings
+        (For desktop)
+*/
+
+@media (min-width: 1100px) {
+    #mainbackground {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #nav_buttons, #login_signup {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        text-align: center;
+        left: 30px;
+    }
+
+    #login_signup {
+        left: 100%;
+        gap: 30px;
+        transform: translate(-600px,0px);
+    }
+
+    #nav_buttons *, #login_signup * {
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(0,0,0,0);
+        border: none;
+        font-weight: bolder;
+        color: var(--other-color);
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #login_signup * {
+        width: 100px;
+    }
+
+    .login_signup_buttons {
+        background-color: var(--contrast-color) !important;
+        border-radius: 7px;
+    }
+}

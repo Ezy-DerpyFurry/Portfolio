@@ -1,0 +1,14 @@
+/* 
+    Navigation bar settings
+        (For mobile)
+*/
+
+@media (max-width: 1100px) {
+    #header1 {
+        color: var(--title-color);
+    }
+
+    #nav_buttons, #login_signup {
+        display: none;
+    }
+}
