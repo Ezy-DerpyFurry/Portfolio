@@ -3,7 +3,7 @@ The images are NOT mine they're just for testing I don't know the original creat
 So this isn't my first website persay but it is definitely my first without 100% chat gpt the only thing that was AI
 was ***helping*** me with the backend .C cause I'm no da bestest C coder but I'm working on it!
 
-The server file is run by doign ./server it's not production level I'm sure but it's how I ran the backend
+The server file is run by doign ./server it's not production level I'm sure but it's how I ran the backend Main.c
 
 The output.txt is with the test emails
 
