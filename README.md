@@ -28,7 +28,7 @@ I'm a person who's interested in
 
 ・ Ukulele/Guitar
 
-・ And drawing myself
+・ And drawing
 
 I'm not particularly good in anything, but I will try my best to make good work, thank you for your time have a wonderful day!
 (Mah goal is to just experiment with a ton of coding languages)
