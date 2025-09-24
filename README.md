@@ -12,7 +12,7 @@ It's also a place for me to be me and not be judged
 
 Haiwos!
 
-I'm a guy who's interested in
+I'm a person who's interested in
 
 ・ Furries/Furry Art
 
