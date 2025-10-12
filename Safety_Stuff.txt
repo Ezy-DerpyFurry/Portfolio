@@ -1,0 +1,40 @@
+Hello some of this stuff might be already obvious but it will all be here for you guys to use.
+
+## VPNS ##
+# Proton vpn #
+Price: Free - $7.99/Month
+App/Web: Application vpn
+My Thoughts: I like it I use it actually it certainly isn't the fastest vpn but its free
+Website: https://protonvpn.com/
+
+# VeePN #
+Price: Free - $3.99/Month
+App/Web: Chrome Extension / Web
+My Thoughts: I use it it's pretty fast for being free and works really well it's a one click toggle
+Website 1: https://chromewebstore.google.com/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno?hl=en << This is the chrome extension page
+Website 2: https://veepn.com/vpn-pricing/extension/ << Pricing
+
+# Windscribe #
+Price: Free - $9.00/Month
+App/Web: Application vpn
+My Thoughts: I've never used it, I don't know how it is but I heard through someone else it was good.
+Website: https://windscribe.com/download/
+
+Sidenote: I know theres paid ones like nord vpn and stuff but that's paid and overly talked about
+
+## Browsers ##
+
+# Tor Browser #
+Price: Free
+My Thoughts: Super good for security though some times it can be a little to over kill it had 3 vpn gate ways and onionized versions of sights plus 3 levels of security (Optional)
+Website: https://www.torproject.org/download/
+
+# FireFox #
+Price: Free
+My Thoughts: Very cool I haven't used it much but it has a built in vpn so that's cool
+Website: https://www.firefox.com/en-US/browsers/desktop/windows/
+
+# Falkon #
+Price: Free (Comes as default for KDE plasma)
+My Thoughts: I don't have many doesn't support rendering so some pages dont work, has no book marks, word look ups, or a proper password saving thing, its kinda a baseplate just to search but it's pretty secure as it's not owwned by a big company
+Website: https://www.falkon.org/download/
