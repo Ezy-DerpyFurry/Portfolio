@@ -1,18 +1,18 @@
-Hello some of this stuff might be already obvious but it will all be here for you guys to use.
+Hello, some of this stuff might be already obvious but it will all be here for you to look at.
 I am not sponsered by any of these. (obviously)
-I should not be held accountable if something is wrong I'm trying by best just I don't know do a request or issue on something.
+I should not be held accountable if something is wrong, I'm trying by best, just do a request or issue on something.
 
 ## VPNS ##
 # Proton vpn #
 Price: Free - $7.99/Month
 App/Web: Application vpn
-My Thoughts: I like it I use it actually it certainly isn't the fastest vpn but its free
+My Thoughts: I like it, I use it actually it certainly isn't the fastest vpn but its free.
 Website: https://protonvpn.com/
 
 # VeePN #
 Price: Free - $3.99/Month
 App/Web: Chrome Extension / Web
-My Thoughts: I use it it's pretty fast for being free and works really well it's a one click toggle
+My Thoughts: I use it, it's pretty fast for being free and works really well, it's a one click toggle.
 Website 1: https://chromewebstore.google.com/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno?hl=en << This is the chrome extension page
 Website 2: https://veepn.com/vpn-pricing/extension/ << Pricing
 
@@ -22,65 +22,66 @@ App/Web: Application vpn
 My Thoughts: I've never used it, I don't know how it is but I heard through someone else it was good.
 Website: https://windscribe.com/download/
 
-Sidenote: I know theres paid ones like nord vpn and stuff but that's paid and overly talked about
+Sidenote: I know there's paid ones like Nord vpn and Surf Shark but that's paid and overly talked about.
 
 ## Browsers ##
 
 # Tor Browser #
 Price: Free
-My Thoughts: Super good for security though some times it can be a little to over kill it had 3 vpn gate ways and onionized versions of sites plus 3 levels of security (Optional)
+My Thoughts: Super good for security, though some times it can be a little to over kill. It has 3 vpn/gateways, onionized versions of sites, and 3 levels of security that are optional.
 Website: https://www.torproject.org/download/
 
 # FireFox #
 Price: Free
-My Thoughts: Very cool I haven't used it much but it has a built in vpn so that's cool
+My Thoughts: Very cool, I haven't used it much but it has a built in vpn so that's cool.
 Website: https://www.firefox.com/en-US/browsers/desktop/windows/
 
 # Falkon #
 Price: Free (Comes as default for KDE plasma)
-My Thoughts: I don't have many doesn't support rendering so some pages dont work, has no book marks, word look ups, or a proper password saving thing, its kinda a baseplate just to search but it's pretty secure as it's not owwned by a big company
+My Thoughts: I don't have any thoughts on this, it doesn't support like OpenGL/3D rendering so some pages dont work, has no book marks, word look ups, or a proper password saving thing, it's kinda just a base engine just to search but it's pretty secure as it's not owned by a big company.
 Website: https://www.falkon.org/download/
 
 # Chrome #
 Price: Free
-My Thoughts: I use it mainly cause it has huge support on extensions and websites, I don't personally trust google with anything I don't save important passwords on it or log into important stuff
+My Thoughts: I use it mainly cause it has huge support on extensions and websites, I don't personally trust google with anything I don't save important passwords on it or log into important stuff.
 Website: https://www.google.com/chrome/
 
-Sidenote: Browsers are browsers most use chromium or another big open source thing the browser doesn't make all that much different other than where it saves passwords and local stuff but DuckDuck go is used on alot of things same with chromium
+Sidenote: Browsers are browsers most use chromium or another big open source searcher, the browser mainly changes where it saves passwords and local stuff. DuckDuck go is used on alot of things, same with chromium.
 
 ## AntiVirus ##
-READ PLEASE >: I don't actually have alot of experience with any anti virus infact I only used ESET twice please do more research before doing anything with this
+READ PLEASE >: I don't actually have alot of experience with any anti-viruses, infact I only used ESET twice. Please do more research before doing anything with these.
 
 # ESET #
 Price: Free - $287.72/Year
 App/Web: Application and Web (I think web atleast)
-My Thoughts: I only ever used the free online one and it worked pretty well I like it.
+My Thoughts: I only ever used the free online one and it worked pretty well, I like it.
 Website 1: https://www.eset.com/us/brand-special-offer/ < These are plans for more just scroll down
 Website 2: https://www.eset.com/us/home/online-scanner/ < This is the free version it's a one time scan
 
 # Guardio #
 Price: Free
 App/Web: Web
-My Thoughts: Never used but third party told me it was good
+My Thoughts: Never used it, but third party told me it was good.
 Website: https://chromewebstore.google.com/detail/guardio-protection-for-ch/gjfpmkejnolcfklaaddjnckanhhgegla
 
 ## Operation Systems (OS) ##
-PLEASE READ >: Operating Systems are your entire system these are not for you to just download at will and change to this will refactor how you use the computer and might wipe data if you dont back it up this is only for the extreme or just people experimenting PLEASE PLEASE PLEASE do more research then what is here
+PLEASE READ >: Operating Systems are your entire system, these are not for you to just download at will and change to, this will refactor how you use the computer and might wipe data if you dont back it up, this is only for the extreme or just people experimenting. PLEASE PLEASE PLEASE do more research then what is here.
 
 USB bootable helper: https://rufus.ie/en/ (WINDOWS ONLY)
-USB bootable helper 2: https://www.ventoy.net/en/download.html (Works for Windows/Linux/Mac (Maybe)) < This looks sketchy I haven't used it
-USB bootable helper 3: https://etcher.balena.io/ (Works for Windows/Linux/Mac) < I haven't used it
+USB bootable helper 2: https://www.ventoy.net/en/download.html (Works for Windows/Linux/Mac (Maybe)) < This looks sketchy, I haven't used it.
+USB bootable helper 3: https://etcher.balena.io/ (Works for Windows/Linux/Mac) < I haven't used it.
 
 # Arch Linux #
-My Thoughts: I use it I love it, pretty hard to use but I like how empty it is
+My Thoughts: I use it and I love it, pretty hard to use but I like how empty it is.
 Website: https://archlinux.org/download/
 Wiki/Docs: https://wiki.archlinux.org/title/Main_page
 
 # Ubuntu #
-My Thoughts: Very nice very clean sets it all up for you perfect for new linux users
+My Thoughts: Very nice and very clean sets it all up for you, perfect for new linux users.
 Website: https://ubuntu.com/
 Docs: https://docs.ubuntu.com/
 Wiki: https://wiki.ubuntu.com/
 
-Sidenote: Don't be alarmed your OS isn't neccessairly "Unsafe" unless u installed a literal virus but Operation systems such as Windows and Apple are monitored and controlled by a big company and they can lock/withdraw your permissions and see what you do.
+Sidenote: Don't be alarmed your operating system isn't neccessairly "Unsafe" unless you installed a virus but operating systems such as Windows and Apple/Mac are monitored and controlled by a big company and they can lock/withdraw your permissions and "see what you do".
+^^ The part in quotes the "see what you do" is in quotes cause I'm not entirly sure they can just look at you desktop, but I think they can do simular things.
 
