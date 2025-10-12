@@ -64,4 +64,23 @@ App/Web: Web
 My Thoughts: Never used but third party told me it was good
 Website: https://chromewebstore.google.com/detail/guardio-protection-for-ch/gjfpmkejnolcfklaaddjnckanhhgegla
 
+## Operation Systems (OS) ##
+PLEASE READ >: Operating Systems are your entire system these are not for you to just download at will and change to this will refactor how you use the computer and might wipe data if you dont back it up this is only for the extreme or just people experimenting PLEASE PLEASE PLEASE do more research then what is here
+
+USB bootable helper: https://rufus.ie/en/ (WINDOWS ONLY)
+USB bootable helper 2: https://www.ventoy.net/en/download.html (Works for Windows/Linux/Mac (Maybe)) < This looks sketchy I haven't used it
+USB bootable helper 3: https://etcher.balena.io/ (Works for Windows/Linux/Mac) < I haven't used it
+
+# Arch Linux #
+My Thoughts: I use it I love it, pretty hard to use but I like how empty it is
+Website: https://archlinux.org/download/
+Wiki/Docs: https://wiki.archlinux.org/title/Main_page
+
+# Ubuntu #
+My Thoughts: Very nice very clean sets it all up for you perfect for new linux users
+Website: https://ubuntu.com/
+Docs: https://docs.ubuntu.com/
+Wiki: https://wiki.ubuntu.com/
+
+
 
