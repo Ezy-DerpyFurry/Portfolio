@@ -28,7 +28,7 @@ Sidenote: I know theres paid ones like nord vpn and stuff but that's paid and ov
 
 # Tor Browser #
 Price: Free
-My Thoughts: Super good for security though some times it can be a little to over kill it had 3 vpn gate ways and onionized versions of sights plus 3 levels of security (Optional)
+My Thoughts: Super good for security though some times it can be a little to over kill it had 3 vpn gate ways and onionized versions of sites plus 3 levels of security (Optional)
 Website: https://www.torproject.org/download/
 
 # FireFox #
