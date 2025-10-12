@@ -1,4 +1,6 @@
 Hello some of this stuff might be already obvious but it will all be here for you guys to use.
+I am not sponsered by any of these. (obviously)
+I should not be held accountable if something is wrong I'm trying by best just I don't know do a request or issue on something.
 
 ## VPNS ##
 # Proton vpn #
@@ -38,3 +40,28 @@ Website: https://www.firefox.com/en-US/browsers/desktop/windows/
 Price: Free (Comes as default for KDE plasma)
 My Thoughts: I don't have many doesn't support rendering so some pages dont work, has no book marks, word look ups, or a proper password saving thing, its kinda a baseplate just to search but it's pretty secure as it's not owwned by a big company
 Website: https://www.falkon.org/download/
+
+# Chrome #
+Price: Free
+My Thoughts: I use it mainly cause it has huge support on extensions and websites, I don't personally trust google with anything I don't save important passwords on it or log into important stuff
+Website: https://www.google.com/chrome/
+
+Sidenote: Browsers are browsers most use chromium or another big open source thing the browser doesn't make all that much different other than where it saves passwords and local stuff but DuckDuck go is used on alot of things same with chromium
+
+## AntiVirus ##
+READ PLEASE >: I don't actually have alot of experience with any anti virus infact I only used ESET twice please do more research before doing anything with this
+
+# ESET #
+Price: Free - $287.72/Year
+App/Web: Application and Web (I think web atleast)
+My Thoughts: I only ever used the free online one and it worked pretty well I like it.
+Website 1: https://www.eset.com/us/brand-special-offer/ < These are plans for more just scroll down
+Website 2: https://www.eset.com/us/home/online-scanner/ < This is the free version it's a one time scan
+
+# Guardio #
+Price: Free
+App/Web: Web
+My Thoughts: Never used but third party told me it was good
+Website: https://chromewebstore.google.com/detail/guardio-protection-for-ch/gjfpmkejnolcfklaaddjnckanhhgegla
+
+
