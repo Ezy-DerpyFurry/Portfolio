@@ -82,5 +82,5 @@ Website: https://ubuntu.com/
 Docs: https://docs.ubuntu.com/
 Wiki: https://wiki.ubuntu.com/
 
-
+Sidenote: Don't be alarmed your OS isn't neccessairly "Unsafe" unless u installed a literal virus but Operation systems such as Windows and Apple are monitored and controlled by a big company and they can lock/withdraw your permissions and see what you do.
 
