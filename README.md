@@ -37,7 +37,7 @@ I'm not particularly good in anything, but I will try my best to make good work,
                                 
 ## SIDE NOTE ##
 
-After this huge discord hack with 70,000 GOVERNMENT IDS LEAKED I think I wanna go full time into cyber security. I don't get why people would even think about leaking
+After this huge discord hack with 70,000 GOVERNMENT IDS STOLEN I think I wanna get into cyber security. I don't get why people would even think about leaking
 hundreds or thousands of minor IDS knowing that predators will abuse this knowledge. I will do what I can to learn cyber security and teach anyone I come across how to
 protect themselves online. May you all stay safe and monitor where your information goes.
 
