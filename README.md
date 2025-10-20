@@ -1,3 +1,5 @@
+Please read the LICENSE before using. Sorry for the restrictions I'm just proud of my work and think it shouldn't be stolen.
+
 ## Mah Portfolio ##
 
 Hello! This is my portfolio where I will be uploading things I make from now on weather they are good or not.
