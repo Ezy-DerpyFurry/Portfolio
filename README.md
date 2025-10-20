@@ -6,7 +6,7 @@ It might not attract a lot of attention but I personally will be doing this for 
 
 It's also a place for me to be me and not be judged
 
-``` Pls gib credit (not needed)```
+``` Pls gib credit```
 
 ## About me ##
 
