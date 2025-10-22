@@ -35,7 +35,7 @@ glib.update_arguments({
 
 ### EXTRAS ###
 
-extras.wait(1) # This waits a certain amount of seconds like. (it does support foats [ex. 0.4])
+extras.wait(1) # This waits a certain amount of seconds like. (it does support floats [ex. 0.4])
 
 extras.keep_alive(True) # Will keep your code alive even if it all ends it will just keep it running
 extras.keep_alive(False) # Disables the keep alive
