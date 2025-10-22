@@ -6,6 +6,7 @@
 # ^^ It's only locally
 
 ### SIDE NOTE ###
+# This code uses relative paths so things like vs code can use it
 # I'm pretty proud of this if im being honest, I think it's really really cool!
 # But please don't use it for bad, not that it's capable of anything there's no username input, it's more so for checking if your password is leaked or how crackable it is.
 
@@ -29,7 +30,7 @@ CHECKADDEDLISTS = True # If you don't want it to loop through your files just se
 # Don't touch variables
 chars = string.ascii_letters + string.digits + string.punctuation # Total brute force tries every combonation using these
 nums = string.digits # For number only combonations
-customPasswordPath = Path(r'CustomPasswordLists')
+customPasswordPath = Path(r'CustomPasswordLists') # This is a relative path by da way so I don't know if it will work on everything
 
 def clearTerm() -> None: print("\033[2J\033[H", end="") # Fake terminal clear to make it look nice but really just moves text up and resets your cursor to the top
 
