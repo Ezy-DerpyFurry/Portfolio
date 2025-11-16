@@ -1,3 +1,5 @@
+I am remaking this in C++ as I know it a little better, I am gonna be expanding on this project you can read more in the c++ terminalUI (if anyone sees this)
+
 This is how to use it... (duhhz :3)
 
 To use the already compiled version the one named (mymenu.cpython-313-x86_64-linux-gnu.so)
