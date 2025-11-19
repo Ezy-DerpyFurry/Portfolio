@@ -1,0 +1,34 @@
+import terminalui << Imports the terminalui library
+
+options = { << Just some list to hold options for the selector.
+    "Button 1": "  This is an example hover for button 1", << Contains the button name and the hover effect when they're on it. just put "" if you don't want a hover effect
+    "Button 2": "  This is an example hover for button 2",
+    "Button 3": "" << No hover effect
+}
+buttons = { << Just some list to hold options for the button menu.
+    "Button A": "  This is an example hover for button A", << Contains the button name and the hover effect when they're on it. just put "" if you don't want a hover effect
+    "Button B": "  This is an example hover for button B",
+    "Button C": "" << No Hover effect
+}
+print(terminalui.createButtons(buttons, "These are buttons")) << This creates the button menu. The arguments are (dictionary, title)
+print(terminalui.createSelector(options, "This is a selector", " >> ")) << This creates the selector menu. The arguments are (dictionary, title, pointer characters)
+print(terminalui.createSlider(0, 20, "This is the slider")) << This creates the slider. The arguments are (minimum value, maximum value, title)
+
+!!! BELOW THIS IS A TEST IT DOES SORTA WORK BUT IT MIGHT BREAK YOUR TERMINAL INPUT !!!
+
+terminalui.startInput() << Enables the start of it
+
+try: << If it errors stops the input instead of forever being unable to type.
+    while True: << Basic while loop
+        keyAscii = terminalui.getKey(True) << terminalui.getKey() gives you the key while u started the input otherwise it won't do anything.
+        if keyAscii is not None: << Basic thing making sure there is a input
+            if keyAscii == 113 or keyAscii == 'q': << Checking if they press a certain key
+                terminalui.stopInput() << Exiting safely
+                break
+            print(f"Key pressed: {keyAscii}") << Prints the keys/ascii
+except:
+    terminalui.stopInput() << Stops if loop errors
+
+>> The terminalui.getKey() argument you can pass False which won't do anything you can leave it blank and will display ascii so 113 instead of 'q'. If you set it to True it will display 'q' instead of the ascii 113
+
+Side Note: You can not create any button or slider or anything while you started the input as it will break everything. Again the input recording is temporary
