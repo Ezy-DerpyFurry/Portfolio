@@ -1,5 +1,7 @@
 import terminalui << Imports the terminalui library
 
+terminalui.bypassInputBlock(True) << This should only be used if you know what you're doing, it will allow the "ui elements" to be made while startInput.
+
 options = { << Just some list to hold options for the selector.
     "Button 1": "  This is an example hover for button 1", << Contains the button name and the hover effect when they're on it. just put "" if you don't want a hover effect
     "Button 2": "  This is an example hover for button 2",
